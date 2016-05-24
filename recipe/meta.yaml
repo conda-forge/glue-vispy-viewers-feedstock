@@ -1,4 +1,4 @@
-{% set version = "0.3" %}
+{% set version = "0.4" %}
 
 package:
   name: glue-vispy-viewers
@@ -7,12 +7,11 @@ package:
 source:
   fn: glue-vispy-viewers-{{version}}.tar.gz
   url: https://pypi.io/packages/source/g/glue-vispy-viewers/glue-vispy-viewers-{{version}}.tar.gz
-  md5: 507d396069cb2eb96fc2e0c3058f88c3
+  md5: ded543ba93070a71f322da650b792b16
 
 build:
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
-  skip: True  # [win and py35]
 
 requirements:
 
@@ -23,7 +22,7 @@ requirements:
   run:
     - python
     - numpy
-    - vispy
+    - pyopengl
     - glueviz
     - scikit-image
     - matplotlib
