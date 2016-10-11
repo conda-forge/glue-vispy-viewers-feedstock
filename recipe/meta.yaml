@@ -23,7 +23,7 @@ requirements:
     - python
     - numpy
     - pyopengl
-    - glueviz
+    - glueviz >=0.9
     - scikit-image
     - matplotlib
 
