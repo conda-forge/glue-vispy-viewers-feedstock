@@ -10,7 +10,7 @@ source:
   md5: 28ca4b50dc179609d8304b4e5e8e6042
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -26,6 +26,10 @@ requirements:
     - glueviz >=0.9
     - scikit-image
     - matplotlib
+    - qtpy
+
+    # At the moment, the 3D viewers don't yet work properly with Qt5, so we pin to 4.x
+    - pyqt 4.*
 
 test:
   imports:
