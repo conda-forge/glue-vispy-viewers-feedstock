@@ -33,7 +33,6 @@ conda search glue-vispy-viewers --channel conda-forge
 ```
 
 
-
 About conda-forge
 =================
 
