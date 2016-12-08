@@ -10,7 +10,7 @@ source:
   md5: 07b0ec9fec510352edc617e95ee86469
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -26,7 +26,7 @@ requirements:
     - glueviz >=0.9
     - scikit-image
     - matplotlib
-    - qtpy
+    - qt 4.8.*
     - pyqt 4.11.*
 
 test:
