@@ -10,7 +10,7 @@ source:
   md5: 07b0ec9fec510352edc617e95ee86469
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -23,7 +23,7 @@ requirements:
     - python
     - numpy
     - pyopengl
-    - glueviz >=0.9
+    - glueviz >=0.9  # [not py36]
     - scikit-image
     - matplotlib
     - qtpy
@@ -31,9 +31,9 @@ requirements:
 
 test:
   imports:
-    - glue_vispy_viewers
-    - glue_vispy_viewers.scatter
-    - glue_vispy_viewers.volume
+    - glue_vispy_viewers  # [not py36]
+    - glue_vispy_viewers.scatter  # [not py36]
+    - glue_vispy_viewers.volume  # [not py36]
 
 about:
   home: https://github.com/glue-viz/glue-vispy-viewers
