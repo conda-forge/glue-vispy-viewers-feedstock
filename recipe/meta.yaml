@@ -10,7 +10,7 @@ source:
   md5: 2189493a5070024ff3c412307a6a5a7e
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -28,6 +28,10 @@ requirements:
     - matplotlib
     - qtpy
     - pyqt 4.11.*
+    
+    # Temporary: the scikit-image conda package is missing the dask dependency
+    # so we add it here for now
+    - dask
 
 test:
   imports:
