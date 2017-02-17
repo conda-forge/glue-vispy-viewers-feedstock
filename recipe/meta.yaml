@@ -26,7 +26,7 @@ requirements:
     - glueviz >=0.10
     - scikit-image
     - matplotlib
-    - qtpy
+    - qt 4.8.*
     - pyqt 4.11.*
     
     # Temporary: the scikit-image conda package is missing the dask dependency
