@@ -1,4 +1,4 @@
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 
 package:
   name: glue-vispy-viewers
@@ -7,10 +7,10 @@ package:
 source:
   fn: glue-vispy-viewers-{{version}}.tar.gz
   url: https://pypi.io/packages/source/g/glue-vispy-viewers/glue-vispy-viewers-{{version}}.tar.gz
-  md5: 2189493a5070024ff3c412307a6a5a7e
+  md5: 58cd60967ed1b80b965b0627b2d3bd77
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -23,16 +23,11 @@ requirements:
     - python
     - numpy
     - pyopengl
-    - glueviz >=0.10
-    - scikit-image
+    - glue-core >=0.10
     - matplotlib
     - qtpy
     - pyqt 4.11.*
     
-    # Temporary: the scikit-image conda package is missing the dask dependency
-    # so we add it here for now
-    - dask
-
 test:
   imports:
     - glue_vispy_viewers
