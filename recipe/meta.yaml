@@ -10,7 +10,7 @@ source:
   md5: 58cd60967ed1b80b965b0627b2d3bd77
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -26,7 +26,7 @@ requirements:
     - glue-core >=0.10
     - matplotlib
     - qtpy
-    - pyqt 4.11.*
+    - pyqt 4.11.*|5.6.*
     
 test:
   imports:
