@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.8" %}
 
 package:
   name: glue-vispy-viewers
@@ -28,7 +28,7 @@ requirements:
     - qtpy
     - astropy >=1.1
     - pyqt 4.11.*|5.6.*
-    
+
 test:
   imports:
     - glue_vispy_viewers
