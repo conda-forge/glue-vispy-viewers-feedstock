@@ -14,14 +14,16 @@ Summary: 3D viewers for Glue
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/glue-vispy-viewers-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/glue-vispy-viewers-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/glue-vispy-viewers-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/glue-vispy-viewers-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/glue-vispy-viewers-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/glue-vispy-viewers-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/glue-vispy-viewers-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/glue-vispy-viewers-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/glue-vispy-viewers-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/glue-vispy-viewers-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/glue-vispy-viewers-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/glue-vispy-viewers-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/glue-vispy-viewers/badges/version.svg)](https://anaconda.org/conda-forge/glue-vispy-viewers)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/glue-vispy-viewers/badges/downloads.svg)](https://anaconda.org/conda-forge/glue-vispy-viewers)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-glue--vispy--viewers-green.svg)](https://anaconda.org/conda-forge/glue-vispy-viewers) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/glue-vispy-viewers.svg)](https://anaconda.org/conda-forge/glue-vispy-viewers) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/glue-vispy-viewers.svg)](https://anaconda.org/conda-forge/glue-vispy-viewers) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/glue-vispy-viewers.svg)](https://anaconda.org/conda-forge/glue-vispy-viewers) |
 
 Installing glue-vispy-viewers
 =============================
