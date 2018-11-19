@@ -10,6 +10,7 @@ source:
   sha256: 252bb439a3ed733d817bdf2d5ea6456ceceb7234c17ac319846e6c09c2975ae3
 
 build:
+  noarch: python
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
@@ -23,7 +24,7 @@ requirements:
     - python
     - numpy
     - pyopengl
-    - glue-core >=0.13
+    - glue-core >=0.14
     - matplotlib
     - qtpy
     - astropy >=1.1
