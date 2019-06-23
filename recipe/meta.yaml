@@ -42,7 +42,7 @@ test:
 about:
   home: https://github.com/glue-viz/glue-vispy-viewers
   license: BSD 3-Clause
-  summary: 3D viewers for Glue
+  summary: 3D viewers for Glue based on Vispy
 
 extra:
   recipe-maintainers:
