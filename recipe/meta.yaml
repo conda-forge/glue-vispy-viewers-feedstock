@@ -18,17 +18,19 @@ requirements:
 
   build:
     - python
-    - setuptools
+    - setuptools >=30.3
+    - setuptools_scm
 
   run:
     - python
     - numpy
     - pyopengl
-    - glue-core >=0.14
-    - matplotlib
+    - glue-core >=0.15
     - qtpy
+    - pyqt
     - astropy >=1.1
-    - pyqt 5.6.*
+    - pillow
+    - matplotlib
 
 test:
   imports:
