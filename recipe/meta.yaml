@@ -1,4 +1,4 @@
-{% set version = "0.11" %}
+{% set version = "0.12" %}
 
 package:
   name: glue-vispy-viewers
@@ -7,28 +7,31 @@ package:
 source:
   fn: glue-vispy-viewers-{{version}}.tar.gz
   url: https://pypi.io/packages/source/g/glue-vispy-viewers/glue-vispy-viewers-{{version}}.tar.gz
-  sha256: 252bb439a3ed733d817bdf2d5ea6456ceceb7234c17ac319846e6c09c2975ae3
+  sha256: 2bc084db13aa364efd6c8447da02e9458038485cd55f05aef0587e3bc58e2ab9
 
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
 
   build:
     - python
-    - setuptools
+    - pip
+    - setuptools >=30.3
+    - setuptools_scm
 
   run:
     - python
     - numpy
     - pyopengl
-    - glue-core >=0.14
-    - matplotlib
+    - glue-core >=0.15
     - qtpy
+    - pyqt
     - astropy >=1.1
-    - pyqt 5.6.*
+    - pillow
+    - matplotlib
 
 test:
   imports:
@@ -39,7 +42,7 @@ test:
 about:
   home: https://github.com/glue-viz/glue-vispy-viewers
   license: BSD 3-Clause
-  summary: 3D viewers for Glue
+  summary: 3D viewers for Glue based on Vispy
 
 extra:
   recipe-maintainers:
