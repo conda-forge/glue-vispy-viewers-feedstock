@@ -1,1 +1,2 @@
 gtk2-devel
+mesa-libGL-devel
