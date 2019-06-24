@@ -7,7 +7,7 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: 3D viewers for Glue
+Summary: 3D viewers for Glue based on Vispy
 
 
 
