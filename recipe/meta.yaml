@@ -1,4 +1,4 @@
-{% set version = "0.12.1" %}
+{% set version = "0.12.2" %}
 
 package:
   name: glue-vispy-viewers
@@ -7,7 +7,7 @@ package:
 source:
   fn: glue-vispy-viewers-{{version}}.tar.gz
   url: https://pypi.io/packages/source/g/glue-vispy-viewers/glue-vispy-viewers-{{version}}.tar.gz
-  sha256: 9ab0c6b28de90f9155ef4c37028dcc8af369274b91b7d6432fbe9ba99bb16f5a
+  sha256: 3bc00472624e53c2d5ecb50d7bce29acdb2e6f6459694188044daa62c76ae8cf
 
 build:
   noarch: python
