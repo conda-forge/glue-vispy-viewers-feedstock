@@ -26,12 +26,13 @@ requirements:
     - python
     - numpy
     - pyopengl
-    - glue-core >=0.15
+    - glue-core >=1.0
     - qtpy
-    - pyqt
-    - astropy >=1.1
+    - scipy
+    - astropy >=4.0
     - pillow
     - matplotlib-base
+    - vispy >=0.6
 
 test:
   imports:
