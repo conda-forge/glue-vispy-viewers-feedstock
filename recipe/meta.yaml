@@ -17,13 +17,13 @@ build:
 requirements:
 
   host:
-    - python
+    - python >=3.6
     - pip
     - setuptools >=30.3
     - setuptools_scm
 
   run:
-    - python
+    - python >=3.6
     - numpy
     - pyopengl
     - glue-core >=1.0
@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://github.com/glue-viz/glue-vispy-viewers
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: 3D viewers for Glue based on Vispy
 
