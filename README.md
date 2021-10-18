@@ -3,7 +3,7 @@ About glue-vispy-viewers
 
 Home: https://github.com/glue-viz/glue-vispy-viewers
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/glue-vispy-viewers-feedstock/blob/master/LICENSE.txt)
 
