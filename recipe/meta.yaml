@@ -17,22 +17,23 @@ build:
 requirements:
 
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
     - setuptools >=30.3
     - setuptools_scm
 
   run:
-    - python >=3.6
+    - python >=3.8
     - numpy
     - pyopengl
-    - glue-core >=1.0
+    - glue-core >=1.13.1
+    - glue-qt >=0.1.0
+    - echo >=0.6
     - qtpy
     - scipy
-    - astropy >=4.0
-    - pillow
     - matplotlib-base
-    - vispy >=0.6
+    - vispy >=0.9.1
+    - importlib_metadata
 
 test:
   imports:
