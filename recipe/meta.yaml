@@ -27,13 +27,13 @@ requirements:
     - numpy
     - pyopengl
     - glue-core >=1.13.1
-    - glue-qt >=0.1.0
     - echo >=0.6
-    - qtpy
     - scipy
     - matplotlib-base
     - vispy >=0.9.1
     - importlib_metadata
+    - glfw
+    - imageio
 
 test:
   imports:
