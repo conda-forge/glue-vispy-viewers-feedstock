@@ -30,7 +30,7 @@ requirements:
     - echo >=0.6
     - scipy
     - matplotlib-base
-    - vispy >=0.9.1
+    - vispy >=0.12.0
     - importlib_metadata
     - glfw
     - imageio
