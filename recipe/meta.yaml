@@ -31,7 +31,7 @@ requirements:
     - scipy
     - matplotlib-base
     - vispy >=0.12.0
-    - importlib_metadata
+    - importlib-metadata
     - glfw
     - imageio
 
